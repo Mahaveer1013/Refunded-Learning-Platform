@@ -1,3 +1,0 @@
-@echo off
-echo Starting backend in VS Code terminal...
-code -r -g backend && code -r -g frontend

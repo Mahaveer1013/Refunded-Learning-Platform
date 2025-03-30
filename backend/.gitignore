@@ -13,6 +13,7 @@ logs/
 
 # Virtual Environment
 .venv
+venv
 .env/
 .envrc
 *.egg-info/
@@ -24,7 +25,7 @@ pip-delete-this-directory.txt
 # Database & Migrations
 migrations/
 *.sqlite3
-database/*.db
+*.db
 
 # Jupyter Notebook Checkpoints (if using notebooks)
 .ipynb_checkpoints/

@@ -1,0 +1,16 @@
+fastapi
+web3
+pydantic
+uvicorn
+python-dotenv
+youtube_transcript_api
+openai==0.28
+sqlalchemy
+passlib
+typing
+"python-jose[cryptography]"
+"pydantic[email]"
+python-multipart
+bcrypt
+pydantic-settings
+alembic
