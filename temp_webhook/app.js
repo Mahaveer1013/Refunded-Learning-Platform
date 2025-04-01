@@ -6,6 +6,10 @@ app.use(express.json()); // Parse JSON payloads
 
 const LOCAL_SERVER_URL = 'http://127.0.0.1:8000/webhook/razorpay'; // Your local backend URL
 
+app.get("/", (req, res) => {
+    res.send("Hello from Proxy Server!")
+});
+
 app.post('/webhook/razorpay', async (req, res) => {
     try {
         console.log("🔹 Received Webhook from Razorpay");
